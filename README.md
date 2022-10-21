@@ -8,6 +8,11 @@ Only keep App.js and index.js
 
 Start with App.js, create a simple App function
 
+
+Create HTML Buttons in App.js
+
+Create styles.css 
+
 --------------------------------------------------------------------
 
 # Getting Started with Create React App

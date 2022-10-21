@@ -2,6 +2,12 @@
 
 npx create-react-app
 
+Delete all the unnecessary files in /src folder, 
+Only keep App.js and index.js
+
+
+Start with App.js, create a simple App function
+
 --------------------------------------------------------------------
 
 # Getting Started with Create React App

@@ -1,6 +1,24 @@
 import './styles.css'
+import { useReducer } from 'react';
+import DigitButton from './DigitButton';
+import OperationButton from './OperationButton';
+
+export const ACTIONS = {
+  ADD_DIGIT: "add-digit",
+  CHOOSE_OPERATION: "choose-operation",
+  CLEAR: "clear",
+  DELETE_DIGIT: "delete-digit",
+  EVALUATE: "evaluate",
+}
+
+function reducer(state, action) {
+
+}
 
 function App() {
+
+  const [{previousOperand, currentOperand, operation}, dispatch] = useReducer(reducer, {})
+
   return (
     <div className='calculator-grid'>
       <div className='output'>

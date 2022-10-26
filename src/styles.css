@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    /* background: linear-gradient(to bottom right, black, #f806bc, #2d0af7, white); */
     background: linear-gradient(to right, #00AAFF, #00FF6C);
 }
 

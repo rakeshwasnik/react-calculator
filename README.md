@@ -13,6 +13,13 @@ Create HTML Buttons in App.js
 
 Create styles.css 
 
+
+# Problem with simple hooks like useState: 
+when you have more actions to perform, it gets messier, so simpler if you use 
+a switch-case based hook, to manage all the actions.
+
+# useReducer solves the problem for you.
+
 --------------------------------------------------------------------
 
 # Getting Started with Create React App

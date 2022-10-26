@@ -20,6 +20,20 @@ a switch-case based hook, to manage all the actions.
 
 # useReducer solves the problem for you.
 
+create a const [state, dispatch] = useReducer(reducer, {})
+reducer is a function and a default object, here that object is empty for now.
+
+Then create a function reducer() as its being used in useReducer(reducer) as mentioned above
+
+this reducer() takes two arguments:
+reducer(state, action)
+
+the state variable is going to be an object, containing 3 variables:
+currentOperand, previousOperand, operation
+
+# state and action in reducer function:
+
+
 --------------------------------------------------------------------
 
 # Getting Started with Create React App
